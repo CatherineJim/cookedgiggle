@@ -1,0 +1,192 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact</title>
+	</head>
+	<body>
+			<style type="text/css">
+
+				body{
+					padding: 0;
+					margin: 50px 50px;
+					font-family: Arial, Helvetica, sans-serif;
+					color: rgb(48, 46, 46);
+					background-color: mintcream;
+				}
+				.containers{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					padding: 25px;
+					width: 500px;
+					margin: 15vh auto;
+					border-radius: 15px;
+					border: none;
+					box-shadow:  darkblue;
+				}
+				form{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width: 90%;
+				}
+				input{
+					width: 100%;
+					margin: 5px 0;
+					height: 35px;
+					font-size: 17px;
+					text-align: center;
+					outline: none;
+					border-radius: 15px;
+					border: none;
+					background: rgb(235, 228, 228);
+				}
+				textarea{
+					width: 100%;
+					margin: 5px 0;
+					font-size: 17px;
+					text-align: center;
+					outline: none;
+					border-radius: 15px;
+					border: none;
+					background: lightblue;
+					color: black;
+					cursor: pointer;
+				}
+				input[type=submit]{
+					margin: 10px auto;
+					width: 120px;
+					background: royalblue;
+					color: white;
+					cursor: pointer;
+				}
+				input[type=submit]:hover{
+					background: tomato;
+				}
+
+				@media screen and (max-width: 500px){
+					.container{
+						width: 90%;
+					}
+				}
+				hr{
+					width: 80%;
+				}
+				h2{
+					font-size: 20px;
+
+				}
+				.contact-items{
+					display: flex;
+					margin: 30px auto;
+					flex-wrap: wrap;
+					align-items: center;
+				}
+				.customer-care,.write-us,.sales-market{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width: 28%;
+					margin: 30 auto%;
+					padding: 35px 15px;
+					border-radius: 15px;
+					text-align: center;
+					min-width: 250px;				
+				}
+				.customer-care{
+					height: 250px;
+					box-shadow: 0 15px 15px darkgrey;
+					border: 1px solid darkgrey;
+					margin-left: 100px;
+					background: gray;
+					color: white;
+				}
+				.write-us{
+					height: 250px;
+					box-shadow: 0 15px 15px darkgrey;
+					border: 1px solid darkgrey;
+					background: gray;
+					margin-left: 200px;
+					color: white;
+				}
+			
+				p{
+					font-size: 20px;
+				}
+				.customer-button{
+					padding: 8px 16px;
+					font-size: 17px;
+					border-radius: 55px;
+					margin: 15px auto;
+					cursor: pointer;
+					color: rgb(255, 255, 255);
+					background-color: cadetblue;
+				}
+				.customer-button:hover{
+					color: gray;
+				}
+				#customer-care{
+					background: grey;
+					box-shadow: 0 0 5px darkgrey;
+					border-radius: 10px;
+				}
+
+				#write-us{
+					background: rgb(187, 15, 15);
+					box-shadow: 0 0 5px darkgrey;
+					border-radius: 20px;
+				}
+		
+				a{
+					font-size: 16px;
+				}
+				.customer-care a{
+					color: blue;
+					text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+				}
+				
+
+	
+
+</style>
+
+<body>
+	<div class="containers">
+		<h1>Cooked Giggle</h1>
+		<h2>Write  Us</h2>
+		<form action="">
+			<input type="email" name="email" id="email" placeholder="Enter your email">
+			<input type="text" name="name" id="name" placeholder="Enter your name">
+			<textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+			<input type="submit" value="send">
+		</form>
+	</div>
+</body>
+
+	<div class="container">
+		<h1>Contact Us</h1>
+		<hr>
+		<h2>Do you have any questions? We'd love to hear fron you</h2>
+		<div class="contact-items">
+			<div class="customer-care">
+			<h3>Customer Care</h3>
+			<p>Our Support team is set across the world, ready to deliver quick response</p>
+			<button id="customer-button">Submit your Request</button>
+			<a href="#">Frequently asked Questions</a>
+		</div>
+		<div class="write-us">
+			<h3>Give your feedback</h3>
+			<p> Write to us if you have any queries</p>
+			 <a href="#"><button id="write">Write</button></a>
+		</div>
+		
+		</div>
+	</div>
+</div>
+</body>
+</body>
+</html>
+
+          	
